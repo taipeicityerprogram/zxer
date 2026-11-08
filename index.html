@@ -1000,10 +1000,10 @@ body{padding-bottom:72px}
   <audio id="muAud" preload="none" src="audio/taipei-song.mp3"></audio>
 </div>
 <script>
-(()=>{const T={zh:{n:'♪ 主題曲｜山與海之間',p:'播放主題曲',s:'暫停主題曲',m:'收合播放器',r:'背景音樂'},
-en:{n:'♪ Theme song · Between Mountains and Sea',p:'Play theme song',s:'Pause theme song',m:'Minimize player',r:'Background music'},
-fr:{n:'♪ Chanson · Entre montagnes et mer',p:'Lire la chanson',s:'Mettre en pause',m:'Réduire le lecteur',r:'Musique de fond'},
-es:{n:'♪ Canción · Entre montañas y mar',p:'Reproducir la canción',s:'Pausar la canción',m:'Minimizar el reproductor',r:'Música de fondo'}};
+(()=>{const T={zh:{n:'♪ 主題曲｜潮聲北門',p:'播放主題曲',s:'暫停主題曲',m:'收合播放器',r:'背景音樂'},
+en:{n:'♪ Theme song · Tides at the North Gate',p:'Play theme song',s:'Pause theme song',m:'Minimize player',r:'Background music'},
+fr:{n:'♪ Chanson · Marées de la Porte du Nord',p:'Lire la chanson',s:'Mettre en pause',m:'Réduire le lecteur',r:'Musique de fond'},
+es:{n:'♪ Canción · Mareas de la Puerta Norte',p:'Reproducir la canción',s:'Pausar la canción',m:'Minimizar el reproductor',r:'Música de fondo'}};
 const $=id=>document.getElementById(id),mu=$('mu'),a=$('muAud'),b=$('muBtn'),ico=$('muIco'),fill=$('muFill'),bar=$('muBar'),mn=$('muMin');
 const PLAY='<path d="M4 2.5v11l9.5-5.5z"/>',PAUSE='<path d="M3.5 2.5h3v11h-3zM9.5 2.5h3v11h-3z"/>';
 const lg=()=>{const l=(document.documentElement.lang||'zh').slice(0,2);return T[l]?l:'zh'};
